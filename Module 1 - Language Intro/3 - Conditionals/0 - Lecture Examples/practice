@@ -1,0 +1,8 @@
+age = 19
+
+if age > 18:
+    print("Time for the Army")
+else:
+    print("Thank jesus, you are not old enough to join the Army!")
+
+

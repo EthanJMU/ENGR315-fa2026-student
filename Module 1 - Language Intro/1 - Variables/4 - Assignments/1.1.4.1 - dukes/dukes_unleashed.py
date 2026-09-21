@@ -12,8 +12,14 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 """
 
-### Your code here ###
+# Return rate = 0.05
+# in_state total cost = 30792 USD
+# out_of_state total cost = 47882 USD
 
-in_state_gift = 0
+# to calculate the amount of money that needs to be invested to generate enough return to cover the total cost for one year, we can use the formula:investment_needed=total cost/return rate
 
-out_state_gift = 0
+in_state_gift = 30792 / 0.05
+out_state_gift = 47882 / 0.05
+
+print(f"in-state gift: ${in_state_gift:.2f}")
+print(f"out-of-state gift: ${out_state_gift:.2f}")

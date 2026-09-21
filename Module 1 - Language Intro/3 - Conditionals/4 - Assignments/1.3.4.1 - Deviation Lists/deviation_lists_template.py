@@ -21,7 +21,12 @@ random_list_A = random.sample(range(100), random_length)
 random_list_B = random.sample(range(100), random_length)
 
 # use the std() method from numpy to determine which list has the largest standard deviation
+std_A = np.std(random_list_A)
+std_B = np.std(random_list_B)
 
+if std_A > std_B:
+    longest_list_is = random_list_A
+else:longest_list_is = random_list_B
 ### YOUR CODE HERE
 
 # set this variable equal to the list with the largest standard deviation
@@ -30,3 +35,6 @@ random_list_B = random.sample(range(100), random_length)
 longest_list_is = None
 
 ### YOUR CODE HERE
+longest_list_is =random_list_A if std_A > std_B else random_list_B
+print(f"Standard Deviation of List A: {std_A}")
+print(f"Standard Deviation of List B: {std_B}")

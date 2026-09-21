@@ -1,0 +1,5 @@
+countdown = 5
+while countdown > 0:
+    print(countdown)
+    countdown -= 1  # Subtracts 1 each time so the loop eventually stops
+print("Kaboom!")

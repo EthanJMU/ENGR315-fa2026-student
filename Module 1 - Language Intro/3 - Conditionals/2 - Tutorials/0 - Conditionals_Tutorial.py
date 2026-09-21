@@ -8,10 +8,10 @@ age = 19
 # a person's age is over 18. Also, have an else statement
 # if they are not over 18.
 
-if age:
-    print()
+if age > 18:
+    print("Time for the Army")
 else:
-    print()
+    print("Thank jesus, you are not old enough to join the Army!")
 
 # Next, choose a value to make the following statement print out
 # the 2nd elif statement! You can also mess around to see how other
