@@ -38,6 +38,12 @@ value is even, place it in the evens_list. If it is odd, place it in the
 odds_list
 """
 
+for num in nums:
+    if num % 2 == 0:
+        evens_list.append(num)
+    else:
+        odds_list.append(num)
+
 print("The evens list contains: ", evens_list)
 print("The odds list contains: ", odds_list)
 
